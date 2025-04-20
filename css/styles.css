@@ -105,9 +105,7 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-nav-item {
-  color: #404bbf;
-}
+
 .header-nav-link {
   display: block;
   padding: 24px 0;
@@ -123,7 +121,9 @@ p {
 }
 .header-nav-link.current {
   position: relative;
+  color: #404bbf;
 }
+
 .header-nav-link.current::after {
   content: "";
 
